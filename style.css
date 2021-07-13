@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: lightgray;
+    background-color: rgba(255, 249, 249, 0.863);
     margin: 0;
 }
+/****************************
+  TOP SECTION CLASSES below:
+  **************************/
 .top-section{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -39,4 +42,33 @@ body {
 .top-item img:hover{
     transform: rotate(30deg);
     transition: transform linear 2s;
+}
+
+/*****************************
+PLAYERS Section Classes below:
+******************************/
+.players-section{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    justify-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+    
+}
+
+.player {
+    padding: 15px;
+    box-shadow: 10px 10px 40px grey;
+    background-color: white;
+    justify-items: center;
+    
+}
+
+.player img {
+    width: 330px;
+    height: 256px;
 }
