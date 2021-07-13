@@ -55,8 +55,8 @@ PLAYERS Section Classes below:
     display: grid;
     grid-template-columns:repeat(3, 1fr) ;
     justify-items: center;
-    justify-content: center;
     grid-gap: 20px;
+    align-items:stretch;
     
 }
 
@@ -71,4 +71,33 @@ PLAYERS Section Classes below:
 .player img {
     width: 330px;
     height: 256px;
+    
+}
+
+/*****************************
+VIDEO Section CLAEESE begin:
+******************************/
+.video-section{
+    display: grid;
+    background-image: linear-gradient(grey,white);
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.video-item h2:hover {
+    background-color: white;
+    padding: 20px;
+    font-size: 2em;
+
+
+}
+.video-item span {
+    color: red;
 }
