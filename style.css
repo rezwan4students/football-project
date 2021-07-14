@@ -170,8 +170,8 @@ Footer Section CLAEESE begin:
 }
 
 .fab:hover{
-    transform: scale(1.2);
-    border: 2px solid rgb(18, 18, 104);
+    transform: scale(1.4);
+  
 }
 .footer-item span {
     font-size: 3em;
@@ -234,7 +234,7 @@ Media Queries for Mobile Phones:
 Media Queries for TABs:
 ******************************/
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) and (min-width:689px)  {
     .top-section{
         display:grid;
         grid-template-columns: repeat(2,1fr);
