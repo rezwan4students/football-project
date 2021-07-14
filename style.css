@@ -193,8 +193,15 @@ Media Queries for Mobile Phones:
         background-color: rgb(18, 18, 104);
         padding-top: 100px;
         padding-bottom:50px;
-        width:60%;
-        
+         
+    }
+
+    .top-item img {
+        width: 50%;
+    }
+
+    .top-item p {
+        width: 50%;
     }
 
     .players-section{
