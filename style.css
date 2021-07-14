@@ -85,6 +85,13 @@ PLAYERS Section Classes below:
     
 }
 
+.player img:hover {
+    transform: scale(1.1);
+    transition: transform linear 1s;
+    border: 3px dashed rgb(18, 18, 104);
+    
+}
+
 /*****************************
 VIDEO Section CLAEESE begin:
 ******************************/
@@ -104,8 +111,10 @@ VIDEO Section CLAEESE begin:
 
 .video-item h2:hover {
     background-color: white;
-    padding: 20px;
-    font-size: 2em;
+    padding: 10px;
+    font-size: 1.5em;
+    border: 3px solid red;
+    border-radius: 30px;
 
 
 }
@@ -114,13 +123,13 @@ VIDEO Section CLAEESE begin:
 }
 
 /*****************************
-VIDEO Section CLAEESE begin:
+AUDIO Section CLAEESE begin:
 ******************************/
 .audio-section{
     box-shadow: 5px 5px 20px lightskyblue;
 }
 .audio-section p {
-    width: 80%;
+    width: 70%;
 
 }
 
@@ -170,4 +179,103 @@ Footer Section CLAEESE begin:
     margin-left: 25px;
     font-family: 'Qahiri', sans-serif;
     font-size: 5em;
+}
+
+/*****************************
+Media Queries for Mobile Phones:
+******************************/
+
+@media only screen and (max-width: 688px) {
+    .top-section{
+        display:grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        background-color: rgb(18, 18, 104);
+        padding-top: 100px;
+        padding-bottom:50px;
+        
+    }
+
+    .players-section{
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 80%; */
+        display: grid;
+        grid-template-columns:1fr;
+        justify-items: center;
+        grid-gap: 20px;
+        align-items:stretch;
+        
+    }
+    .player img {
+        width: 100%;
+        height: 256px;
+        
+    }
+
+    .video-section, .audio-section{
+        display: grid;
+        background-image: linear-gradient(grey,white);
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        justify-items: center;
+        align-items: center;
+        padding: 20px;
+        
+    }
+
+}
+
+/*****************************
+Media Queries for TABs:
+******************************/
+
+@media only screen and (max-width: 992px) {
+    .top-section{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        background-color: rgb(18, 18, 104);
+        padding-top: 100px;
+        padding-bottom:50px;
+        
+    }
+
+    .players-section{
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 80%; */
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        justify-items: center;
+        grid-gap: 20px;
+        align-items:stretch;
+        
+    }
+    .player img {
+        width: 100%;
+        height: 256px;
+        
+    }
+
+    .video-section, .audio-section{
+        display: grid;
+        background-image: linear-gradient(grey,white);
+        grid-template-columns: 1fr;
+
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        justify-items: center;
+        align-items: center;
+        padding: 20px;
+        
+    }
+
 }
