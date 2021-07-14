@@ -195,6 +195,7 @@ Media Queries for Mobile Phones:
         padding-top: 100px;
         padding-bottom:50px;
         margin: auto;
+        overflow-x: hidden;
          
     }
 
