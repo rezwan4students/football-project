@@ -144,8 +144,9 @@ Footer Section CLAEESE begin:
 .footer-section{
     margin-top: 85px;
     display:flex;
-    flex-directon:column;
+    flex-direction:column;
     justify-content: center;
+    align-items: center;
 }
 
 .fa-futbol {
@@ -153,10 +154,20 @@ Footer Section CLAEESE begin:
     color: rgb(18, 18, 104);
 }
 
+.fab {
+    font-size: 2em;
+    color: grey;
+    margin-right: 8px;
+}
+
+.fab:hover{
+    transform: scale(1.2);
+    border: 2px solid rgb(18, 18, 104);
+}
 .footer-item span {
     font-size: 3em;
     color:rgb(18, 18, 104);
-    margin-left: 35px;
+    margin-left: 25px;
     font-family: 'Qahiri', sans-serif;
     font-size: 5em;
 }
