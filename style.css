@@ -107,6 +107,7 @@ VIDEO Section CLAEESE begin:
     align-items: center;
     padding: 20px;
     
+    
 }
 
 .video-item h2:hover {
@@ -193,11 +194,12 @@ Media Queries for Mobile Phones:
         background-color: rgb(18, 18, 104);
         padding-top: 100px;
         padding-bottom:50px;
+        margin: auto;
          
     }
 
     .top-item img {
-        width: 50%;
+        width: 75%;
     }
 
     .top-item p {
