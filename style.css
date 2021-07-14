@@ -238,7 +238,9 @@ Media Queries for Mobile Phones:
         padding: 20px;
         
     }
-
+    .youtube {
+        width: 350px;
+    }
 }
 
 /*****************************
