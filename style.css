@@ -148,7 +148,7 @@ AUDIO Section CLAEESE begin:
 }
 
 /*****************************
-Footer Section CLAEESE begin:
+Footer Section CLASSES begin:
 ******************************/
 
 .footer-section{
@@ -182,9 +182,9 @@ Footer Section CLAEESE begin:
     font-size: 5em;
 }
 
-/*****************************
+/*********************************
 Media Queries for Mobile Phones:
-******************************/
+**********************************/
 
 @media only screen and (max-width: 688px) {
     .top-section{
